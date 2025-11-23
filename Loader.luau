@@ -821,7 +821,7 @@ scriptsTab:CreateSection({
 
 scriptsTab:CreateButton({
     Title = "Redz Hub",
-    Desc = "Blox Fruits auto-farm king ??",
+    Desc = "Blox Fruits auto-farm king",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RedzDev/RedzHub/main/RedzHub.lua"))()
     end
@@ -831,7 +831,7 @@ scriptsTab:CreateButton({
     Title = "Than Hub",
     Desc = "Keyless auto-win for tons of games",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanHub/ThanHub/main/Source.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
     end
 })
 
@@ -845,7 +845,7 @@ scriptsTab:CreateButton({
 
 scriptsTab:CreateButton({
     Title = "Owl Hub",
-    Desc = "30+ games supported hub ??",
+    Desc = "30+ games supported hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
     end
@@ -933,6 +933,14 @@ scriptsTab:CreateButton({
     Desc = "find hidden scripts",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Script-searcher-56910"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Free Products Sniper",
+    Desc = "Some games only",
+    Callback = function()
+        loadstring(game:HttpGet("https://paste.rs/m0GKH"))()
     end
 })
 
@@ -1468,6 +1476,54 @@ scriptsTab:CreateButton({
     Desc = "rope farm, level skip",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ChainedScripts/Chained/main/Chained.lua"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Plants Evolution - Tora",
+    Desc = "Infinite Wins, OP Pets",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/PlantEvolution"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Fight in a Supermarket - Tora",
+    Desc = "Kill Aura, Auto Cash",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/FightinaSupermarket"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Deadly Delivery - Tora",
+    Desc = "Auto Find Items, Fast Coins",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadlyDelivery"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "DUMP script - Tora",
+    Desc = "Instant Steal, OP Eggs",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DUMP"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Tank Game - Tora",
+    Desc = "Max Speed, Auto Upgrades",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/TankGame"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Blox Loot - Tora",
+    Desc = "Mob Hitbox, Auto attack",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/BloxLoot"))()
     end
 })
 
