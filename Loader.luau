@@ -569,6 +569,14 @@ mainTab:CreateSection({
 })
 
 mainTab:CreateButton({
+    Title = "Open unanchored abuser",
+    Desc = "Control unanchored objects",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/Brick/refs/heads/main/Brick.lua"))()
+    end
+})
+
+mainTab:CreateButton({
     Title = "Set Day Time",
     Desc = "makes it bright af ??",
     Callback = function()
@@ -1256,6 +1264,14 @@ scriptsTab:CreateButton({
 })
 
 scriptsTab:CreateButton({
+    Title = "FE Invisible V3",
+    Desc = "You can even kill ppl with tool with this invis",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/Invis/refs/heads/main/Invistoggle", true))()
+    end
+})
+
+scriptsTab:CreateButton({
     Title = "FE Equip Multiple Tools",
     Desc = "Hold 10+ tools at once",
     Callback = function()
@@ -1360,6 +1376,18 @@ scriptsTab:CreateButton({
     Desc = "Synapse X reborn UI",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/tB1McyJv/raw"))()
+    end
+})
+
+scriptsTab:CreateSection({
+    Title = "Flix - Game scripts"
+})
+
+scriptsTab:CreateButton({
+    Title = "99 Nights In The Forest - Flix",
+    Desc = "GOD Mode, Auto Day Farm, Kill Aura, etc",
+    Callback = function()
+        https://pastefy.app/EFLiQVp7/raw
     end
 })
 
@@ -1504,10 +1532,10 @@ scriptsTab:CreateButton({
 })
 
 scriptsTab:CreateButton({
-    Title = "DUMP script - Tora",
+    Title = "DUMP script - Me",
     Desc = "Instant Steal, OP Eggs",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DUMP"))()
+        loadstring(game:HttpGet("https://paste.rs/vH4OJ"))()
     end
 })
 
@@ -1524,6 +1552,14 @@ scriptsTab:CreateButton({
     Desc = "Mob Hitbox, Auto attack",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/BloxLoot"))()
+    end
+})
+
+scriptsTab:CreateButton({
+    Title = "Dig grandma's backyard - Tora",
+    Desc = "Auto secret, mythic, easy cash",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DigGrandmasBackyard"))()
     end
 })
 
