@@ -1155,19 +1155,15 @@ SaveButton_2179.MouseLeave:Connect(function()
 	SaveButton_2179.TextTransparency = 0.3
 	Icon_5763.ImageTransparency = 0.3
 end)
-            -- Style
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/SourceCludeLib/refs/heads/main/Style.lua"))()
-	
--- DraggingToggle
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/SourceCludeLib/refs/heads/main/DragToggleSetting.lua"))()
-----
 
--- grow a garden function stock timer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperHackerYT/Flix/refs/heads/main/Style.luau"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperHackerYT/Flix/refs/heads/main/DragToggleSetting.luau"))()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/SourceCludeLib/refs/heads/main/GrowAGardenStockFunction.lua"))()
---
 
--- slap battle searchbox function 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/SourceCludeLib/refs/heads/main/SearchGlovesFunction.lua"))()
+
 local about = game.CoreGui:WaitForChild("FOREVERWIN"):WaitForChild("AboutFrame")
 
 for _, obj in pairs(about:GetDescendants()) do
