@@ -3,7 +3,7 @@ style.Name = "Style"
 style.Position = UDim2.new(0.037, 0, 0.9, 0)
 style.Size = UDim2.new(0.5, 0, 0.05, 0)
 style.BackgroundTransparency = 1
-style.Parent = game.CoreGui.NEVERLOSE.AboutFrame
+style.Parent = game.CoreGui.FOREVERWIN.AboutFrame
 style.ZIndex = 50
 
 local textLabel = Instance.new("TextLabel", style)
@@ -60,7 +60,7 @@ orangeButton.ZIndex = 50
 
 -- THEME APPLY FUNCTION
 local function applyTheme(theme)
-    local core = game.CoreGui:FindFirstChild("NEVERLOSE")
+    local core = game.CoreGui:FindFirstChild("FOREVERWIN")
     if not core then return end
 
     local roots = {}
@@ -178,9 +178,9 @@ applyTheme({
 })
 
 -- EXTRA COLOR DYNAMICS (DownBar + TabButton + Icons)
-local NEVERLOSE = game.CoreGui:FindFirstChild("NEVERLOSE")
-if not NEVERLOSE then return end
-local Frame = NEVERLOSE:FindFirstChild("Frame")
+local FOREVERWIN = game.CoreGui:FindFirstChild("FOREVERWIN")
+if not FOREVERWIN then return end
+local Frame = FOREVERWIN:FindFirstChild("Frame")
 if not Frame then return end
 
 local RunService = game:GetService("RunService")
@@ -223,7 +223,7 @@ RunService.RenderStepped:Connect(function()
     end
 
     if newTabColor and newTabColor ~= lastTabColor then
-        for _, obj in ipairs(NEVERLOSE:GetDescendants()) do
+        for _, obj in ipairs(FOREVERWIN:GetDescendants()) do
             if obj:IsA("Frame") and obj.Name == "TabButton" then
                 obj.BackgroundColor3 = newTabColor
             end
